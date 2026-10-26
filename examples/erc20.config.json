@@ -1,0 +1,17 @@
+{
+  "rpcUrl": "http://127.0.0.1:8545",
+  "port": 3000,
+  "pollMs": 2000,
+  "contracts": [
+    {
+      "name": "USDC",
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "startBlock": 6082465,
+      "abi": [
+        "event Transfer(address indexed from, address indexed to, uint256 value)",
+        "event Approval(address indexed owner, address indexed spender, uint256 value)"
+      ],
+      "events": ["Transfer"]
+    }
+  ]
+}
